@@ -81,8 +81,3 @@ Visit the application in your browser at: `http://127.0.0.1:8000/`.
 - Add search and filter functionality.
 - Enable user authentication for personalized experiences.
 - Incorporate e-commerce features like a shopping cart.
-
----
-
-## License
-This project is licensed under the MIT License.
