@@ -1,0 +1,135 @@
+greythr-clone/
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── dashboard.css
+│   │   └── responsive.css
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── validation.js
+│   │   ├── charts.js
+│   │   └── calendar.js
+│   └── images/
+│       ├── logo.png
+│       └── icons/
+├── config/
+│   ├── database.php
+│   ├── config.php
+│   └── .env
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── sidebar.php
+│   ├── functions.php
+│   ├── session.php
+│   ├── security.php
+│   └── error_handler.php
+├── models/
+│   ├── Employee.php
+│   ├── Department.php
+│   ├── Leave.php
+│   ├── Attendance.php
+│   ├── Payroll.php
+│   └── Notification.php
+├── modules/
+│   ├── auth/
+│   │   ├── login.php
+│   │   ├── logout.php
+│   │   ├── register.php
+│   │   ├── forgot-password.php
+│   │   └── reset-password.php
+│   ├── dashboard/
+│   │   ├── index.php
+│   │   └── widgets.php
+│   ├── attendance/
+│   │   ├── index.php
+│   │   ├── check-in.php
+│   │   ├── check-out.php
+│   │   ├── regularization.php
+│   │   └── reports.php
+│   ├── leave/
+│   │   ├── index.php
+│   │   ├── apply.php
+│   │   ├── status.php
+│   │   ├── balance.php
+│   │   └── holiday-calendar.php
+│   ├── profile/
+│   │   ├── index.php
+│   │   ├── personal.php
+│   │   ├── documents.php
+│   │   ├── skills.php
+│   │   └── settings.php
+│   ├── payroll/
+│   │   ├── index.php
+│   │   ├── salary-slip.php
+│   │   ├── tax-info.php
+│   │   └── reimbursements.php
+│   ├── calendar/
+│   │   ├── index.php
+│   │   └── events.php
+│   ├── timesheet/
+│   │   ├── index.php
+│   │   ├── daily.php
+│   │   ├── weekly.php
+│   │   └── projects.php
+│   ├── projects/
+│   │   ├── index.php
+│   │   ├── details.php
+│   │   ├── tasks.php
+│   │   └── team.php
+│   ├── performance/
+│   │   ├── index.php
+│   │   ├── goals.php
+│   │   ├── reviews.php
+│   │   └── feedback.php
+│   ├── policies/
+│   │   ├── index.php
+│   │   ├── view.php
+│   │   └── acknowledgment.php
+│   └── admin/
+│       ├── dashboard.php
+│       ├── employees.php
+│       ├── departments.php
+│       ├── designations.php
+│       ├── shifts.php
+│       ├── leave-management.php
+│       ├── approvals.php
+│       ├── reports.php
+│       ├── settings.php
+│       └── system-logs.php
+├── api/
+│   ├── attendance.php
+│   ├── leave.php
+│   ├── profile.php
+│   ├── payroll.php
+│   ├── timesheet.php
+│   ├── projects.php
+│   ├── performance.php
+│   └── admin.php
+├── database/
+│   ├── migrations/
+│   │   ├── create_tables.php
+│   │   └── seed_data.php
+│   └── greythr.sql
+├── utils/
+│   ├── date_helper.php
+│   ├── notification.php
+│   ├── export.php
+│   ├── pdf_generator.php
+│   ├── email.php
+│   └── logger.php
+├── uploads/
+│   ├── profiles/
+│   ├── documents/
+│   └── temp/
+├── tests/
+│   ├── unit/
+│   │   └── models/
+│   └── functional/
+│       └── modules/
+├── vendor/
+├── index.php
+├── .htaccess
+├── .gitignore
+├── composer.json
+└── README.md
